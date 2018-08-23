@@ -156,7 +156,7 @@ a:focus {
     opacity: 0;
     transition: all 0.5s ease-in-out;
 }
-.overlay.active {
+.overlayall.active {
     display: block;
     opacity: 1;
 }
@@ -642,6 +642,7 @@ section .section-title {
 
 .box-image {
   position: relative;
+  margin-top: 20px;
   /*margin: 20px 0;*/
 }
 
@@ -675,7 +676,10 @@ section .section-title {
 
 .box-image h3 {
   font-size: 1.125rem;
-  color: #fff;
+  color: #ffff00;
+  padding: .375rem .75rem;
+  background: #813D97;
+  border: 1px solid #ffff00 !important;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   -webkit-transition: all 0.3s;
@@ -691,7 +695,7 @@ section .section-title {
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(79, 191, 168, 0.4);
+  background: rgba(236, 119, 250, 0.3);
   padding: 20px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -729,9 +733,9 @@ section .section-title {
 
 /*button*/
 .btn-template-outlined-white {
-  background: none;
-  border: 1px solid #fff !important;
-  color: #fff;
+  background: #813D97;
+  border: 1px solid #ffff00 !important;
+  color: #ffff00;
   border-radius: 0 !important;
   text-decoration: none;
 }
