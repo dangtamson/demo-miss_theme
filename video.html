@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Tài Trợ</title>
+    <title>Video</title>
 
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -21,6 +21,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/hovereffect.css">
     <link rel="stylesheet" href="css/animate.css">
+    <!-- slider gallerry -->
+    <link href="vendor/lightgallery/css/lightgallery.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Animation -->
     <script src="js/wow.min.js"></script>
     <script>
@@ -97,47 +100,53 @@
                     </div>
                     <div class="container-fluid clip">
                         <div class="col-md-12 danhmuc">
-                            <ul class="nav nav-tabs" role="tablist">
-                                <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#musicvideo" role="tab">Video 2017</a> </li>
-                                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#profile" role="tab">Video 2018</a> </li>
+                            <ul class="nav nav-tabs" role="tablist" style="margin-top: 20px">
+                                <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#2017" role="tab">Video 2017</a> </li>
+                                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#2018" role="tab">Video 2018</a> </li>
                             </ul>
                         </div>
                         <div class="col-md-12">
                             <div class="row">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 karaoke">
-                                    <div class="tab-content" id="nav-tabContent">
-                                        <div class="tab-pane fade show active" id="musicvideo" role="tabpanel" aria-labelledby="nav-home-tab">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="tab-content" id="nav-tabContent" style="border: 1px solid #fff">
+                                        <div class="tab-pane fade show active" id="2017" role="tabpanel" aria-labelledby="nav-home-tab">
                                             <div class="">
                                                 <h1>Video list</h1>
                                             </div>
-                                            <div class="col-md-12 album">
-                                                <div class="row">
-                                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 wow zoomIn">
+                                            <div class="col-md-12">
+                                                <div class="row" id="video-gallery">
+                                                      <a href="https://www.youtube.com/watch?v=meBbDqAXago"  data-src="https://www.youtube.com/watch?v=meBbDqAXago" >
+                                                          <img src="img/thumb-2.jpg" />
+                                                      </a>
+                                                      <a href="https://vimeo.com/1084537" >
+                                                          <img src="img/thumb-2.jpg" />
+                                                      </a>
+                                                    <div class="col-xs-6 col-sm-4 col-md-3 wow zoomIn">
                                                         <div class="video-wrap">
                                                             <iframe  src="https://www.youtube.com/embed/H8XBpbQSWfc?feature=oembed?&feature=youtu.be&list=PL156rdlu960FxHV-dOwVcxsEvscCerZLO"  allow="autoplay; encrypted-media" allowfullscreen></iframe>     
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 video wow zoomIn">
+                                                    <div class="col-xs-6 col-sm-4 col-md-3 wow zoomIn">
                                                         <div class="video-wrap">
                                                             <iframe  src="https://www.youtube.com/embed/H8XBpbQSWfc?feature=oembed?&feature=youtu.be&list=PL156rdlu960FxHV-dOwVcxsEvscCerZLO"  allow="autoplay; encrypted-media" allowfullscreen></iframe>     
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 video wow zoomIn">
+                                                    <div class="col-xs-6 col-sm-4 col-md-3  wow zoomIn">
                                                         <div class="video-wrap">
                                                             <iframe  src="https://www.youtube.com/embed/H8XBpbQSWfc?feature=oembed?&feature=youtu.be&list=PL156rdlu960FxHV-dOwVcxsEvscCerZLO"  allow="autoplay; encrypted-media" allowfullscreen></iframe>     
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 video wow zoomIn">
+                                                    <div class="col-xs-6 col-sm-4 col-md-3  wow zoomIn">
                                                         <div class="video-wrap">
                                                             <iframe  src="https://www.youtube.com/embed/H8XBpbQSWfc?feature=oembed?&feature=youtu.be&list=PL156rdlu960FxHV-dOwVcxsEvscCerZLO"  allow="autoplay; encrypted-media" allowfullscreen></iframe>     
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 video wow zoomIn">
+                                                    <div class="col-xs-6 col-sm-4 col-md-3 wow zoomIn">
                                                         <div class="video-wrap">
                                                             <iframe  src="https://www.youtube.com/embed/H8XBpbQSWfc?feature=oembed?&feature=youtu.be&list=PL156rdlu960FxHV-dOwVcxsEvscCerZLO"  allow="autoplay; encrypted-media" allowfullscreen></iframe>     
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 video wow zoomIn">
+                                                    <div class="col-xs-6 col-sm-4 col-md-3 wow zoomIn">
                                                         <div class="video-wrap">
                                                             <iframe  src="https://www.youtube.com/embed/H8XBpbQSWfc?feature=oembed?&feature=youtu.be&list=PL156rdlu960FxHV-dOwVcxsEvscCerZLO"  allow="autoplay; encrypted-media" allowfullscreen></iframe>     
                                                         </div>
@@ -145,9 +154,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                        <div class="tab-pane fade" id="2018" role="tabpanel" aria-labelledby="nav-profile-tab">
                                             <div class="">
-                                                <h1>Video list</h1>
+                                                <h1>No Video Found</h1>
                                             </div>
                                         </div>
                                     </div>
@@ -302,48 +311,6 @@
           });
         });
     </script>
-    <!-- event show large img -->
-    <script>
-        // Get the modal
-        var modal = document.getElementById('myModal');
-
-        // Get the image and insert it inside the modal - use its "alt" text as a caption
-        var img = document.getElementById('myImg');
-        var img1 = document.getElementById('myImg1');
-        var img2 = document.getElementById('myImg2');
-        var modalImg = document.getElementById("img01");
-        var captionText = document.getElementById("caption");
-        img.onclick = function(){
-            modal.style.display = "block";
-            modalImg.src = this.src;
-            captionText.innerHTML = this.alt;
-        }
-        // img1.onclick = function(){
-        //     modal.style.display = "block";
-        //     modalImg.src = this.src;
-        //     captionText.innerHTML = this.alt;
-        // }
-        img2.onclick = function(){
-            modal.style.display = "block";
-            modalImg.src = this.src;
-            captionText.innerHTML = this.alt;
-        }
-
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
-
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function() { 
-            modal.style.display = "none";
-        }
-        modal.onclick = function() {
-            img01.className += " out";
-            setTimeout(function() {
-               modal.style.display = "none";
-               img01.className = "modal-content";
-             }, 400);
-        }
-    </script>
     <!-- event scroll to top -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript">
@@ -395,6 +362,21 @@
             });
         });
     </script>
+    <!-- Slide gallery -->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#video-gallery').lightGallery(); 
+            $('#video-thumbnails').lightGallery({
+                loadYoutubeThumbnail: true,
+                youtubeThumbSize: 'default',
+                loadVimeoThumbnail: true,
+                vimeoThumbSize: 'thumbnail_medium',
+            }); 
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+    <script src="vendor/lightgallery/js/lightgallery-all.min.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
 </body>
 
 </html>

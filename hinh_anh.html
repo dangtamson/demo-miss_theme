@@ -21,6 +21,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/hovereffect.css">
     <link rel="stylesheet" href="css/animate.css">
+    <!-- slider gallerry -->
+    <link href="vendor/lightgallery/css/lightgallery.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Animation -->
     <script src="js/wow.min.js"></script>
     <script>
@@ -97,38 +100,142 @@
                     </div>
                     <div class="col-md-12">
                         <ul class="nav nav-tabs" role="tablist" style="margin-top: 20px">
-                            <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#musicvideo" role="tab">Hình Ảnh 2017</a> </li>
-                            <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#profile" role="tab">Hình Ảnh 2018</a> </li>
+                            <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#2017" role="tab">Hình Ảnh 2017</a> </li>
+                            <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#2018" role="tab">Hình Ảnh 2018</a> </li>
                         </ul>
                     </div>
                     <div class="col-md-12">
                         <div class="row">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 karaoke">
-                                <div class="tab-content" id="nav-tabContent">
-                                    <div class="tab-pane fade show active" id="musicvideo" role="tabpanel" aria-labelledby="nav-home-tab">
-                                        <div class="col-md-12 album">
-                                            <ul class="nav nav-tabs" role="tablist" style="margin-top: 20px">
-                                                <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#" role="tab">2017-07-08</a> </li>
-                                                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#" role="tab">2017-07-09</a> </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="tab-content" id="nav-tabContent" style="border: 1px solid #fff">
+                                    <div class="tab-pane fade show active" id="2017" role="tabpanel" aria-labelledby="nav-home-tab">
                                         <div class="col-md-12">
                                             <ul class="nav nav-tabs" role="tablist" style="margin-top: 20px">
-                                                <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#" role="tab">2018-07-08</a> </li>
-                                                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#" role="tab">2018-07-09</a> </li>
+                                                <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#20170708" role="tab">2017-07-08</a> </li>
+                                                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#20170709" role="tab">2017-07-09</a> </li>
                                             </ul>
+                                            <div class="tab-content" id="nav-tabContent" style="border: 1px solid #fff">
+                                                <div class="tab-pane fade show active" id="20170708" role="tabpanel" aria-labelledby="nav-home-tab">
+                                                    <div class="img-gallery col-md-12">
+                                                        <ul id="lightgallery20170708" class="list-unstyled row">
+                                                            <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/1-375.jpg 375, img/1-480.jpg 480, img/1.jpg 800" data-src="img/1-1600.jpg">
+                                                                <a href="">
+                                                                    <img class="img-responsive" src="img/thumb-1.jpg">
+                                                                    <div class="img-gallery-poster">
+                                                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/2-375.jpg 375, img/2-480.jpg 480, img/2.jpg 800" data-src="img/2-1600.jpg" >
+                                                                <a href="">
+                                                                    <img class="img-responsive" src="img/thumb-2.jpg">
+                                                                    <div class="img-gallery-poster">
+                                                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/13-375.jpg 375, img/13-480.jpg 480, img/13.jpg 800" data-src="img/13-1600.jpg" >
+                                                                <a href="">
+                                                                    <img class="img-responsive" src="img/thumb-13.jpg">
+                                                                    <div class="img-gallery-poster">
+                                                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800" data-src="img/4-1600.jpg" >
+                                                                <a href="">
+                                                                    <img class="img-responsive" src="img/thumb-4.jpg">
+                                                                    <div class="img-gallery-poster">
+                                                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/13-375.jpg 375, img/13-480.jpg 480, img/13.jpg 800" data-src="img/13-1600.jpg" >
+                                                                <a href="">
+                                                                    <img class="img-responsive" src="img/thumb-13.jpg">
+                                                                    <div class="img-gallery-poster">
+                                                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="20170709" role="tabpanel" aria-labelledby="nav-home-tab">
+                                                    <div class="img-gallery col-md-12">
+                                                        <ul id="lightgallery20170709" class="list-unstyled row">
+                                                            <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/1-375.jpg 375, img/1-480.jpg 480, img/1.jpg 800" data-src="img/1-1600.jpg">
+                                                                <a href="">
+                                                                    <img class="img-responsive" src="img/thumb-1.jpg">
+                                                                    <div class="img-gallery-poster">
+                                                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/2-375.jpg 375, img/2-480.jpg 480, img/2.jpg 800" data-src="img/2-1600.jpg" >
+                                                                <a href="">
+                                                                    <img class="img-responsive" src="img/thumb-2.jpg">
+                                                                    <div class="img-gallery-poster">
+                                                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="2018" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                        <div class="col-md-12">
+                                            <ul class="nav nav-tabs" role="tablist" style="margin-top: 20px">
+                                                <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#20180708" role="tab">2018-07-08</a> </li>
+                                                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#20180709" role="tab">2018-07-09</a> </li>
+                                            </ul>
+                                            <div class="tab-content" id="nav-tabContent" style="border: 1px solid #fff">
+                                                <div class="tab-pane fade show active" id="20180708" role="tabpanel" aria-labelledby="nav-home-tab">
+                                                    <div class="img-gallery col-md-12">
+                                                        <ul id="lightgallery20180708" class="list-unstyled row">
+                                                            <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/1-375.jpg 375, img/1-480.jpg 480, img/1.jpg 800" data-src="img/1-1600.jpg">
+                                                                <a href="">
+                                                                    <img class="img-responsive" src="img/thumb-1.jpg">
+                                                                    <div class="img-gallery-poster">
+                                                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/2-375.jpg 375, img/2-480.jpg 480, img/2.jpg 800" data-src="img/2-1600.jpg" >
+                                                                <a href="">
+                                                                    <img class="img-responsive" src="img/thumb-2.jpg">
+                                                                    <div class="img-gallery-poster">
+                                                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="20180709" role="tabpanel" aria-labelledby="nav-home-tab">
+                                                    <div class="img-gallery col-md-12">
+                                                        <ul id="lightgallery20180709" class="list-unstyled row">
+                                                            <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/1-375.jpg 375, img/1-480.jpg 480, img/1.jpg 800" data-src="img/1-1600.jpg">
+                                                                <a href="">
+                                                                    <img class="img-responsive" src="img/thumb-1.jpg">
+                                                                    <div class="img-gallery-poster">
+                                                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
-                </div>
-                 <!-- Parallax Section -->
-                <div class="paral paralsec1">
                 </div>
             </div>
             <!-- Footer -->
@@ -276,48 +383,6 @@
           });
         });
     </script>
-    <!-- event show large img -->
-    <script>
-        // Get the modal
-        var modal = document.getElementById('myModal');
-
-        // Get the image and insert it inside the modal - use its "alt" text as a caption
-        var img = document.getElementById('myImg');
-        var img1 = document.getElementById('myImg1');
-        var img2 = document.getElementById('myImg2');
-        var modalImg = document.getElementById("img01");
-        var captionText = document.getElementById("caption");
-        img.onclick = function(){
-            modal.style.display = "block";
-            modalImg.src = this.src;
-            captionText.innerHTML = this.alt;
-        }
-        // img1.onclick = function(){
-        //     modal.style.display = "block";
-        //     modalImg.src = this.src;
-        //     captionText.innerHTML = this.alt;
-        // }
-        img2.onclick = function(){
-            modal.style.display = "block";
-            modalImg.src = this.src;
-            captionText.innerHTML = this.alt;
-        }
-
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
-
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function() { 
-            modal.style.display = "none";
-        }
-        modal.onclick = function() {
-            img01.className += " out";
-            setTimeout(function() {
-               modal.style.display = "none";
-               img01.className = "modal-content";
-             }, 400);
-        }
-    </script>
     <!-- event scroll to top -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript">
@@ -369,6 +434,17 @@
             });
         });
     </script>
+    <!-- Slide gallery -->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#lightgallery20170708').lightGallery();
+            $('#lightgallery20170709').lightGallery();
+            $('#lightgallery20180708').lightGallery();
+            $('#lightgallery20180709').lightGallery();
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+    <script src="vendor/lightgallery/js/lightgallery-all.min.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
 </body>
-
 </html>
