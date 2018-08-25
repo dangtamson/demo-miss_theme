@@ -322,14 +322,6 @@ background-size: cover;
 background-position: 10% 10%;
 }
 
-/* Paragraph for Parallax Section */ 
-.paral p {
-font-size: 24px;
-color:#f5f5f5;
-text-align: center;
-line-height: 60px;
-}
- 
 /* Heading for Parallax Section */ 
 .paral h1 {
 color: #ffff00;
@@ -878,3 +870,100 @@ section .section-title {
     border: 3px solid #04070a;
 }
 
+/* ---------------------------------------------------
+    CUSTOM NEWS STYLE
+----------------------------------------------------- */
+
+.home-blog-post {
+  margin: 15px 0;
+  background-color: #7B3694;
+  min-height: 450px;
+}
+
+.right-site-new{
+    margin: 15px 0;
+    background-color: #7B3694;
+}
+
+.right-site-new h3{
+    color:  #ffff00;
+}
+
+.right-site-new ul li {
+    color: #fff;
+}
+
+.right-site-new ul li a {
+    color: #fff;
+}
+
+.right-site-new ul li a:hover {
+    color: #ffff00;
+}
+
+.home-blog-post .image {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.home-blog-post .overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(236, 119, 250, 0.3);
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.home-blog-post .overlay a {
+  -webkit-transform: translateY(30px);
+  transform: translateY(30px);
+  opacity: 0;
+}
+
+.home-blog-post .overlay i {
+  margin-right: 5px;
+}
+
+.home-blog-post .text {
+  text-align: center;
+}
+.home-blog-post .text  a{
+  color: #ffff00;
+}
+
+.home-blog-post .text .intro {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.home-blog-post h4 {
+  margin: 10px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.home-blog-post .author-category {
+  font-size: 0.75rem;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.home-blog-post .author-category a {
+  font-weight: 500;
+}
+
+.home-blog-post:hover .overlay {
+  opacity: 1;
+}
+
+.home-blog-post:hover .overlay a {
+  -webkit-transform: none;
+  transform: none;
+  opacity: 1;
+}

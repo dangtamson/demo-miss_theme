@@ -97,14 +97,17 @@
                     </div>
                     <div class="col-md-12">
                         <div class="row"> 
-                            <div class="col-md-4 wow zoomIn">
-                                <img src="img/dai_dien_right2.jpg" width="100%" height="100%">
+                            <div class="col-md-4 slideanim " style="padding-top: 10px">
+                                <h4 class="text-center" style="color: #ffff00">ĐẠI DIỆN ĐAN MẠCH</h4>
+                                <img id="myImg" class="myImg" src="img/ban_to_chuc.jpg" width="100%" height="550">
                             </div>
-                            <div class="col-md-4 wow zoomIn">
-                                <img src="img/dai_dien_right2.jpg" width="100%" height="100%">
+                            <div class="col-md-4 slideanim1 " style="padding-top: 10px">
+                                <h4 class="text-center" style="color: #ffff00">ĐẠI DIỆN ĐAN MẠCH</h4>
+                                <img id="myImg1" class="myImg" src="img/ban_to_chuc.jpg" width="100%" height="550">
                             </div>
-                            <div class="col-md-4 wow zoomIn">
-                                <img src="img/dai_dien_right2.jpg" width="100%" height="100%">
+                            <div class="col-md-4 slideanim2 " style="padding-top: 10px">
+                                <h4 class="text-center" style="color: #ffff00">ĐẠI DIỆN ĐAN MẠCH</h4>
+                                <img id="myImg2" class="myImg" src="img/ban_to_chuc.jpg" width="100%" height="550">
                             </div>
                             
                         </div>
@@ -273,11 +276,11 @@
             modalImg.src = this.src;
             captionText.innerHTML = this.alt;
         }
-        // img1.onclick = function(){
-        //     modal.style.display = "block";
-        //     modalImg.src = this.src;
-        //     captionText.innerHTML = this.alt;
-        // }
+        img1.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
         img2.onclick = function(){
             modal.style.display = "block";
             modalImg.src = this.src;
