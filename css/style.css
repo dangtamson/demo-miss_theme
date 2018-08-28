@@ -680,7 +680,11 @@ section .section-title {
 .box-image {
   position: relative;
   margin-top: 20px;
-  /*margin: 20px 0;*/
+}
+
+.box-image-btc {
+  position: relative;
+  margin-top: 20px;
 }
 
 .box-image:hover .overlay {
@@ -791,6 +795,29 @@ section .section-title {
 .btn-template-outlined:hover, .btn-template-outlined:focus {
   background: #4fbfa8;
   color: #fff !important;
+}
+
+.box-img-btc {
+    position: relative;
+    max-width: 800px;
+    margin: 15px;
+}
+
+.box-img-btc img {vertical-align: middle;}
+
+.box-img-btc .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8); /* Black background with transparency */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis !important;
+}
+.box-img-btc .content p {
+    font-size: 12px;
+    color: #fff
 }
 
 /* ---------------------------------------------------
