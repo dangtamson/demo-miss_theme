@@ -257,6 +257,9 @@ ul ul a {
 .bg-pink{
     background-color: rgba(235,100,165, 0.2);
 }
+.title-yellow{
+    color: #ffff00;
+}
 
 #content {
     width: 100%;
@@ -299,6 +302,7 @@ ul ul a {
 
 .card-margin{
     margin-top: 15px;
+    margin-bottom: 15px
 }
 
 .result-vote{
@@ -349,7 +353,7 @@ ul ul a {
 .jumbotron{margin-bottom: 0;}
 
 .paral {
-min-height: 500px;
+min-height: 400px;
 background-attachment: fixed;
 background-size: cover;
 background-position: 10% 10%;
